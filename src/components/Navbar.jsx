@@ -4,7 +4,7 @@ import { Stack } from "@mui/material";
 
 import { logo } from "../utils/constants";
 
-import SearchBar from "./SearchBar";
+import { SearchBar } from "./";
 
 const Navbar = () => (
 	<Stack

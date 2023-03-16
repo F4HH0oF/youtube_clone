@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Box, Typography } from "@mui/material";
-import { Videos } from "./";
+import { Video } from "./";
 import { fetchFromAPI } from "../utils/fetchFromAPI";
 
 const SearchFeed = () => {
@@ -29,7 +29,7 @@ const SearchFeed = () => {
 				<span style={{ color: "#fc1503" }}>{searchTerm}</span> videos
 			</Typography>
 
-			<Videos videos={videos} />
+			<Video videos={videos} />
 		</Box>
 	);
 };
